@@ -39,7 +39,7 @@ def UserCommand():
 engine = initialise_engine()
 
 # Example usage
-speak("Hello, I am Jarvis", engine)
+speak("Hello, I am Jarvis Nice to meet you", engine)
 query = UserCommand()
 if query:
     print(query.lower())
